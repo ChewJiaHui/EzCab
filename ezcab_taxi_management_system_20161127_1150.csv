@@ -1,0 +1,25 @@
+Id,Title,Labels,Iteration,Iteration Start,Iteration End,Type,Estimate,Current State,Created at,Accepted at,Deadline,Requested By,Description,URL,Owned By,Owned By,Owned By,Task,Task Status
+134914337,"As a customer, I can register as a member.","member, register",1,"Nov 24, 2016","Nov 30, 2016",feature,2,finished,"Nov 24, 2016",,,Nicholas Chong,"Registration includes the following data:
+1) Username
+2) Password
+3) Email Address
+4) Telephone Number
+5) Address",https://www.pivotaltracker.com/story/show/134914337,Koay Kaiyi,WANGYAN LING,,Register as member,not completed
+134914665,"As an admin, I can login to the system.","admin, login",1,"Nov 24, 2016","Nov 30, 2016",feature,1,finished,"Nov 24, 2016",,,WANGYAN LING,Admin required to use appointed username and password to login to the system.,https://www.pivotaltracker.com/story/show/134914665,Nicholas Chong,Jia Hui Chew,Teoh Yi Lun,Login to system,not completed
+134914791,"As an admin, I can add new driver.","",1,"Nov 24, 2016","Nov 30, 2016",feature,1,finished,"Nov 24, 2016",,,Nicholas Chong,"Driver requires the following data:
+1) Plate Number
+2) Name
+3) Identification Card Number
+4) Car Type",https://www.pivotaltracker.com/story/show/134914791,Koay Kaiyi,WANGYAN LING,Teoh Yi Lun,Add new driver,not completed
+134915465,"As a member, I can edit my information.","edit, member",1,"Nov 24, 2016","Nov 30, 2016",feature,2,finished,"Nov 24, 2016",,,WANGYAN LING,"The information that can be edit are the following data:
+1) Password
+2) Address
+3) Telephone Number",https://www.pivotaltracker.com/story/show/134915465,Jia Hui Chew,Nicholas Chong,Koay Kaiyi,Edit profile information,not completed
+134918369,"As a member, I can send notification to customer.",notification,,,,feature,2,unscheduled,"Nov 24, 2016",,,Nicholas Chong,Driver can send notification to customer to notify them.,https://www.pivotaltracker.com/story/show/134918369,Jia Hui Chew,Koay Kaiyi,
+134918157,"As a member, I can know the real taxi fare.",taxi fare,,,,feature,1,unscheduled,"Nov 24, 2016",,,Koay Kaiyi,Member can know the calculated real taxi fare.,https://www.pivotaltracker.com/story/show/134918157,Jia Hui Chew,Nicholas Chong,
+134918013,"As a member, I can do payment.",payment,,,,feature,2,unscheduled,"Nov 24, 2016",,,WANGYAN LING,Member can make payment for taxi reservation.,https://www.pivotaltracker.com/story/show/134918013,Jia Hui Chew,Teoh Yi Lun,
+134917915,"As a member, I can select taxi driver.",taxi driver,,,,feature,1,unscheduled,"Nov 24, 2016",,,Teoh Yi Lun,Member can select desired taxi driver.,https://www.pivotaltracker.com/story/show/134917915,Jia Hui Chew,Nicholas Chong,
+134917897,"As a member, I can know the estimated duration.",estimated duration,,,,feature,1,unscheduled,"Nov 24, 2016",,,Jia Hui Chew,Member can view the estimated duration of journey.,https://www.pivotaltracker.com/story/show/134917897,Koay Kaiyi,Nicholas Chong,
+134917719,"As a member, I can know the estimated price.",estimated price,,,,feature,1,unscheduled,"Nov 24, 2016",,,Nicholas Chong,Member can view estimated price of the reservation.,https://www.pivotaltracker.com/story/show/134917719,Koay Kaiyi,Teoh Yi Lun,
+134917619,"As a member, I can view my reservation history.",reservation history,,,,feature,1,unscheduled,"Nov 24, 2016",,,Koay Kaiyi,Member can view taxi reservation history.,https://www.pivotaltracker.com/story/show/134917619,Jia Hui Chew,Teoh Yi Lun,
+134916453,"As a member, I can make a reservation.",reservation,,,,feature,3,unscheduled,"Nov 24, 2016",,,Jia Hui Chew,"Member can make reservation by selecting driver, time, date, destination address and pickup address.",https://www.pivotaltracker.com/story/show/134916453,Nicholas Chong,Koay Kaiyi,WANGYAN LING
