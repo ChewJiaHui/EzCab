@@ -1,0 +1,25 @@
+Id,Title,Labels,Iteration,Iteration Start,Iteration End,Type,Estimate,Current State,Created at,Accepted at,Deadline,Requested By,Description,URL,Owned By,Owned By,Owned By,Task,Task Status,Task,Task Status,Task,Task Status
+134914337,"As a customer, I can register as a member.","member, register",,,,feature,2,accepted,"Nov 24, 2016","Dec 13, 2016",,Nicholas Chong,"Registration includes the following data:
+1) Username
+2) Password
+3) Email Address
+4) Telephone Number
+5) Address",https://www.pivotaltracker.com/story/show/134914337,Koay Kaiyi,WANGYAN LING,,Create registration interface for member.,completed,Write the source for registration.,completed,Testing.,completed
+134914665,"As an admin, I can login to the system.","admin, login",,,,feature,1,accepted,"Nov 24, 2016","Dec 13, 2016",,WANGYAN LING,Admin required to use appointed username and password to login to the system.,https://www.pivotaltracker.com/story/show/134914665,Nicholas Chong,Jia Hui Chew,Teoh Yi Lun,Create login interface for Admin.,completed,Write source code for admin login.,completed,Testing.,completed
+134914791,"As an admin, I can add new driver.","",,,,feature,1,accepted,"Nov 24, 2016","Dec 13, 2016",,Nicholas Chong,"Driver requires the following data:
+1) Plate Number
+2) Name
+3) Identification Card Number
+4) Car Type",https://www.pivotaltracker.com/story/show/134914791,Koay Kaiyi,WANGYAN LING,Teoh Yi Lun,Create a new interface for add new driver.,completed,Write source code for add new driver.,completed,Testing.,completed
+134915465,"As a member, I can edit my information.","edit, member",,,,feature,2,accepted,"Nov 24, 2016","Dec 13, 2016",,WANGYAN LING,"The information that can be edit are the following data:
+1) Password
+2) Address
+3) Telephone Number",https://www.pivotaltracker.com/story/show/134915465,Jia Hui Chew,Nicholas Chong,,Create an interface for member update.,completed,Write source code for member update.,completed,Testing.,completed
+134916453,"As a member, I can make a reservation.",reservation,,,,feature,3,accepted,"Nov 24, 2016","Dec 13, 2016",,Jia Hui Chew,"Member can make reservation by selecting driver, time, date, destination address and pickup address.",https://www.pivotaltracker.com/story/show/134916453,Nicholas Chong,Koay Kaiyi,WANGYAN LING,Create an interface  for reservation module.,completed,Write source code for reservation.,completed,Testing.,completed
+134917619,"As a member, I can view my reservation history.",reservation history,,,,feature,1,accepted,"Nov 24, 2016","Dec 24, 2016",,Koay Kaiyi,Member can view taxi reservation history.,https://www.pivotaltracker.com/story/show/134917619,Jia Hui Chew,Teoh Yi Lun,,Create an interface to show reservation history.,completed,Write source code for reservation history. ,completed,Testing.,completed
+134917915,"As a member, I can select taxi driver.",taxi driver,,,,feature,1,accepted,"Nov 24, 2016","Dec 25, 2016",,Teoh Yi Lun,Member can select desired taxi driver.,https://www.pivotaltracker.com/story/show/134917915,Jia Hui Chew,Koay Kaiyi,WANGYAN LING,Make change at reservation modules.,completed,Write source code for select driver.,completed,Testing.,completed
+134917897,"As a member, I can know the estimated duration.",estimated duration,,,,feature,1,accepted,"Nov 24, 2016","Dec 25, 2016",,Jia Hui Chew,Member can view the estimated duration of journey.,https://www.pivotaltracker.com/story/show/134917897,Nicholas Chong,Teoh Yi Lun,,Make change at reservation module.,completed,Write source code to calculate estimate duration.,completed,Testing.,completed
+134917719,"As a member, I can know the estimated price.",estimated price,,,,feature,1,accepted,"Nov 24, 2016","Dec 25, 2016",,Nicholas Chong,Member can view estimated price of the reservation.,https://www.pivotaltracker.com/story/show/134917719,Koay Kaiyi,Teoh Yi Lun,Nicholas Chong,Make change at reservation module. ,completed,Write source code to calculate estimated price.,completed,Testing.,completed
+134918013,"As a member, I can do payment.",payment,,,,feature,2,accepted,"Nov 24, 2016","Dec 25, 2016",,WANGYAN LING,Member can make payment for taxi reservation.,https://www.pivotaltracker.com/story/show/134918013,Jia Hui Chew,Teoh Yi Lun,WANGYAN LING,Create an interface for payment.,completed,Write source code for payment.,completed,Testing.,completed
+134918157,"As a member, I can know the real taxi fare.",taxi fare,,,,feature,1,accepted,"Nov 24, 2016","Dec 25, 2016",,Koay Kaiyi,Member can know the calculated real taxi fare.,https://www.pivotaltracker.com/story/show/134918157,Jia Hui Chew,Nicholas Chong,WANGYAN LING,Write source code to calculate real taxi fare and show it.,completed,Testing.,completed
+134918369,"As a member, I can receive notification from driver.",notification,,,,feature,2,accepted,"Nov 24, 2016","Dec 25, 2016",,Nicholas Chong,Driver can send notification to customer to notify them.,https://www.pivotaltracker.com/story/show/134918369,Jia Hui Chew,Koay Kaiyi,Teoh Yi Lun,Write source code to send notification to customer.,completed,Testing.,completed
