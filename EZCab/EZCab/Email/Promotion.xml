@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<promotion>
+  <offer>
+    <drink>Pepsi</drink>
+    <ID>1001</ID>
+  </offer>
+  <offer>
+    <drink>Coke</drink>
+    <ID>1002</ID>
+  </offer>
+</promotion>

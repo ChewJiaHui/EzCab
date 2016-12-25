@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="Database1" Class="RetrieveDataDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=(LocalDB)\v11.0;AttachDbFilename=|DataDirectory|\Database1.mdf;Integrated Security=True" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="Database1ConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.DRIVER" Member="DRIVERs">
+    <Type Name="DRIVER">
+      <Column Name="DriverID" Type="System.String" DbType="VarChar(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="DriverName" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="ICNO" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="CarPlateNo" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="ExpiredDriverLicense" Type="System.DateTime" DbType="Date NOT NULL" CanBeNull="false" />
+      <Column Name="ContactNo" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="DRIVER_RESERVATION" Member="RESERVATIONs" ThisKey="DriverID" OtherKey="DriverID" Type="RESERVATION" />
+    </Type>
+  </Table>
+  <Table Name="dbo.MEMBER" Member="MEMBERs">
+    <Type Name="MEMBER">
+      <Column Name="UserName" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Password" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Email" Type="System.String" DbType="VarChar(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="PhoneNum" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Address" Type="System.String" DbType="VarChar(MAX) NOT NULL" CanBeNull="false" />
+      <Association Name="MEMBER_RESERVATION" Member="RESERVATIONs" ThisKey="Email" OtherKey="Email" Type="RESERVATION" />
+      <Association Name="MEMBER_TRANSACTION2" Member="TRANSACTION2s" ThisKey="Email" OtherKey="email" Type="TRANSACTION2" />
+    </Type>
+  </Table>
+  <Table Name="dbo.RESERVATION" Member="RESERVATIONs">
+    <Type Name="RESERVATION">
+      <Column Name="ReservationID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="ReservationStartTime" Type="System.DateTime" DbType="DateTime2 NOT NULL" CanBeNull="false" />
+      <Column Name="ReservationEndTime" Type="System.DateTime" DbType="DateTime2 NOT NULL" CanBeNull="false" />
+      <Column Name="PickUpLocation" Type="System.String" DbType="VarChar(MAX) NOT NULL" CanBeNull="false" />
+      <Column Name="Destination" Type="System.String" DbType="VarChar(MAX) NOT NULL" CanBeNull="false" />
+      <Column Name="Email" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="DriverID" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Price" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Association Name="DRIVER_RESERVATION" Member="DRIVER" ThisKey="DriverID" OtherKey="DriverID" Type="DRIVER" IsForeignKey="true" />
+      <Association Name="MEMBER_RESERVATION" Member="MEMBER" ThisKey="Email" OtherKey="Email" Type="MEMBER" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TRANSACTION2" Member="TRANSACTION2s">
+    <Type Name="TRANSACTION2">
+      <Column Name="TransactionID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="price" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="email" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="paymentTime" Type="System.DateTime" DbType="DateTime2" CanBeNull="true" />
+      <Association Name="MEMBER_TRANSACTION2" Member="MEMBER" ThisKey="email" OtherKey="Email" Type="MEMBER" IsForeignKey="true" />
+    </Type>
+  </Table>
+</Database>
